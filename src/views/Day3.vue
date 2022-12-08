@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-full flex justify-center items-center p-10">
+  <div class="w-full flex justify-center items-center p-10">
     <div>
       <div class="shadow-md relative bg-white p-5 rounded-lg border-gray-100 border-[1px]">
         <CountdownHeader />

@@ -1,5 +1,5 @@
 <template>
-  <main class="w-full h-full flex justify-center items-center">
+  <main class="w-full flex justify-center items-center">
     <div class="w-72 h-72 flex flex-col items-stretch justify-end gap-4">
       <TextBubble isSetup v-if="!loading">
         {{ setup }}
@@ -18,7 +18,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import TextBubble from './TextBubble.vue';
+import TextBubble from '@/components/TextBubble.vue';
 
 const loading = ref(false)
 const setup = ref('')
