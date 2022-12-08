@@ -7,7 +7,6 @@ const presents = ref(['small-red-gift', 'blue-gift', 'tall-red-gift'])
 const underTheTree = ref([])
 
 const startDrag = (evt, index) => {
-  console.log('DRAGGING!!!')
   evt.dataTransfer.dropEffect = 'move'
   evt.dataTransfer.effectAllowed = 'move'
   evt.dataTransfer.setData('index', index)
