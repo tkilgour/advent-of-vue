@@ -10,7 +10,7 @@ defineProps({
 
 <template>
   <div class="relative flex justify-center">
-    <Tree class="w-64" />
+    <Tree class="w-64 h-48 sm:h-64" />
     <div class="flex items-end absolute -bottom-8 -gap-8 presents" v-auto-animate>
       <ChristmasPresent v-for="(p, index) in presents" :key="p" :name="p" />
     </div>

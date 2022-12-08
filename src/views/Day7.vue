@@ -25,7 +25,7 @@ const onDrop = evt => {
     <h1 class="my-4 text-xl font-bold">Drag the presents under the tree!</h1>
     <ChristmasTree :presents="underTheTree" class="grow flex items-center" @drop="onDrop($event, 1)" @dragover.prevent
       @dragenter.prevent />
-    <div class="bg-gray-100 w-full justify-center grow flex items-center">
+    <div class="bg-gray-100 w-full min-h-[30vh] justify-center grow flex items-center">
       <div class="flex items-end justify-center" v-auto-animate>
         <ChristmasPresent v-for="(p, index) in presents" :key="p" :name="p" draggable="true"
           @dragstart="startDrag($event, index)" />
