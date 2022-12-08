@@ -1,0 +1,8 @@
+{
+  "language": "Français",
+  "happyHolidays": "Joyeuses fêtes!",
+  "christmasIsComing": "{ date } c'est dans { time }",
+  "randomLanguage": "Random Lanuage!",
+  "day": "un jour | {count} jours",
+  "flag": "🇫🇷"
+}

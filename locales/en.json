@@ -1,0 +1,8 @@
+{
+  "language": "English",
+  "happyHolidays": "Happy Holidays!",
+  "christmasIsComing": "{ date } is in { time }",
+  "randomLanguage": "Random Lanuage!",
+  "day": "one day | {count} days",
+  "flag": "🇨🇦"
+}
