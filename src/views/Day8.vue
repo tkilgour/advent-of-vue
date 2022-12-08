@@ -28,7 +28,7 @@ const { locale, availableLocales } = useI18n({ useScope: 'global' })
 // I figured since this is i18n-friendly, we'd wanna
 // make sure the timezones were right :-)
 const christmasDate = new Date('2022/12/25')
-const daysUntilChristmas = Math.ceil((christmasDate - new Date()) / (1000 * 60 * 60 * 24))
+const daysUntilChristmas = Math.floor((christmasDate - new Date()) / (1000 * 60 * 60 * 24))
 
 const randomLang = () => {
   const otherLocales = availableLocales.filter(availableLocale => availableLocale !== locale.value)
