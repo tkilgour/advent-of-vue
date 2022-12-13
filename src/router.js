@@ -3,7 +3,7 @@ import {
   createWebHistory,
 } from "vue-router";
 
-const days = [1, 2, 3, 7, 8, 9, 11]
+const days = [1, 2, 3, 4, 7, 8, 9, 11, 13]
 
 const Home = () => import('./views/HomeView.vue')
 
